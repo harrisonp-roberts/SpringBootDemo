@@ -9,7 +9,7 @@ import java.util.List;
  * This is an interface that describes a class that will connect with the database. The Spring Boot framework
  * will look at the methods defined in this interface, and generate a class with the correct SQL queries inside them.
  * This allows other object to reference the methods within this interface as if this interface were an already instantiated
- * object.
+ * object.o[
  */
 public interface BlogRepository extends JpaRepository<Blog, Integer> {
 

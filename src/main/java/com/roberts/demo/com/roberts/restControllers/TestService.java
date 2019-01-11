@@ -3,11 +3,9 @@ package com.roberts.demo.com.roberts.restControllers;
 import com.roberts.demo.com.roberts.dataAccess.BlogRepository;
 import com.roberts.demo.com.roberts.domain.Blog;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 /**
@@ -58,6 +56,12 @@ public class TestService {
 		return blogRepo.findAll();
 	}
 
+
+
+	@PutMapping("/blog")
+	public Blog putBlog(@Valid @RequestBody Blog b) {
+		return blogRepo.save(b);
+	}
 
 	/*
 	The point of the next two methods is to demonstrate that two methods can exist that respond to requests at the same
