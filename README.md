@@ -6,7 +6,6 @@ database, so they don't need to be included when creating new objects in the dat
 
 
 ##Installation Instructions
-
 The application itself should just run properly within IntelliJ IDEA. If you don't already have it, you can get a free 
 student license from JetBrains. When the application is running, there is no frontend. To communicate with the RESTful
 web service, you will need an application called Insomnia REST client. This allows you to send HTTP requests to the RESTful backend.
