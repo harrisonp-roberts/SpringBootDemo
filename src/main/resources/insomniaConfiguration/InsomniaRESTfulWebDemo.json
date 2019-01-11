@@ -1,0 +1,209 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-01-11T18:15:31.500Z",
+	"__export_source": "insomnia.desktop.app:v6.3.2",
+	"resources": [
+		{
+			"_id": "wrk_57da0662ecd245c6855aede4ef5cd7cd",
+			"created": 1536161481047,
+			"description": "",
+			"modified": 1536161481047,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_c3528e4938bd486ca81cceff77849db5",
+			"color": null,
+			"created": 1536161481132,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1536161481132,
+			"modified": 1543427068296,
+			"name": "New Environment",
+			"parentId": "wrk_57da0662ecd245c6855aede4ef5cd7cd",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_66f9a0b54c2549bc9c6737db55213f32",
+			"cookies": [
+				{
+					"creation": "2018-12-01T22:24:47.764Z",
+					"domain": "google.com",
+					"expires": "2018-12-31T22:25:26.000Z",
+					"hostOnly": false,
+					"id": "8948530887159343",
+					"key": "1P_JAR",
+					"lastAccessed": "2018-12-01T22:25:28.858Z",
+					"path": "/",
+					"value": "2018-12-01-22"
+				},
+				{
+					"creation": "2018-12-01T22:24:47.766Z",
+					"domain": "google.com",
+					"expires": "2019-06-02T22:25:26.000Z",
+					"hostOnly": false,
+					"httpOnly": true,
+					"id": "41332089569350994",
+					"key": "NID",
+					"lastAccessed": "2018-12-01T22:25:28.859Z",
+					"path": "/",
+					"value": "148=bktJVVkpRxvNfCau6wqf18r_MpwHOSVS_rSynG2nuUJMQR693_BZuFP9MnkQfZ2r4eMXyTQK30-AovBsxfLYLpjyzrIXky9fKezImlt9m0kqrUq2LAW2imASVbt_ZV_LvxwKmD6K26xWTtaxhd4l82af_sCl6sHcLFyafzWq23w"
+				}
+			],
+			"created": 1536161481144,
+			"modified": 1543703128859,
+			"name": "Default Jar",
+			"parentId": "wrk_57da0662ecd245c6855aede4ef5cd7cd",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_4bb4091dc29c417c949f7fdfb2862d7b",
+			"created": 1547181574268,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1547181574293,
+			"modified": 1547181585484,
+			"name": "RESTDemo",
+			"parentId": "wrk_57da0662ecd245c6855aede4ef5cd7cd",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_566ea6129a1747ad8d6d2f5c93f954de",
+			"authentication": {},
+			"body": {
+				"mimeType": "",
+				"text": "The body of this request doesn't matter. This is normally the area in which JSON data would be (e.g. graphing information). Because it doesn't matter in this demo I will just be using it for notes on each request.\n\nThis request is a GET request sent to localhost:8080/blog\nAt this URI on the server, a method will fetch all blog posts from the database and send them back as an HTTPResponse"
+			},
+			"created": 1547181469126,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547181469276,
+			"method": "GET",
+			"modified": 1547225449110,
+			"name": "DemoGetBlog",
+			"parameters": [],
+			"parentId": "fld_4bb4091dc29c417c949f7fdfb2862d7b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/blog",
+			"_type": "request"
+		},
+		{
+			"_id": "req_93b1531340db414b9e99891bdb5e85ba",
+			"authentication": {},
+			"body": {
+				"mimeType": "",
+				"text": "This sends a GET request to localhost:8080/test"
+			},
+			"created": 1547181541317,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547181469226,
+			"method": "GET",
+			"modified": 1547182594192,
+			"name": "DemoTestListenGet",
+			"parameters": [],
+			"parentId": "fld_4bb4091dc29c417c949f7fdfb2862d7b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a93ff118a3774917b8456f82c4eee67b",
+			"authentication": {},
+			"body": {
+				"mimeType": "",
+				"text": "This is a POST request sent to localhost:8080/test"
+			},
+			"created": 1547181561395,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547181469176,
+			"method": "POST",
+			"modified": 1547182596433,
+			"name": "DemoTestListenPost",
+			"parameters": [],
+			"parentId": "fld_4bb4091dc29c417c949f7fdfb2862d7b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_67e7fed1840b432aa1ecabc8cd4bfa8f",
+			"authentication": {},
+			"body": {
+				"mimeType": "",
+				"text": "This is a request that is sent to a valid URL, but tries to perform an invalid operation (DELETE). This operation is not supported within the RESTful Web Service, and an error is returned"
+			},
+			"created": 1547181686750,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1547181469126,
+			"method": "DELETE",
+			"modified": 1547182610828,
+			"name": "TestInvalidRequest",
+			"parameters": [],
+			"parentId": "fld_4bb4091dc29c417c949f7fdfb2862d7b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/test",
+			"_type": "request"
+		},
+		{
+			"_id": "req_ecb137b59f444ffcb143bfebe4fda63c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n    \"title\": \"Test put into system\",\n    \"content\": \"asdlfsdflkjsdft\"\n}"
+			},
+			"created": 1547225088568,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_2c14889a76a74af7aa863df784df95f5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547181469251,
+			"method": "PUT",
+			"modified": 1547228308282,
+			"name": "DemoPutBlog",
+			"parameters": [],
+			"parentId": "fld_4bb4091dc29c417c949f7fdfb2862d7b",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "localhost:8080/blog",
+			"_type": "request"
+		}
+	]
+}
