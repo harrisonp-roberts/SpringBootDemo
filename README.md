@@ -6,7 +6,13 @@ database, so they don't need to be included when creating new objects in the dat
 
 
 ## Installation Instructions
-The application itself should just run properly within IntelliJ IDEA. If you don't already have it, you can get a free 
+The application itself should just run properly within IntelliJ IDEA.
+
+To be able to run this program you will probably need to import the Maven Dependencies. In IntelliJ you should be able to do
+this by right clicking on the pom.xml file, and navigating through Maven > reimport or Maven > Generate Sources and Update Folders.
+That should work but I'm not sure because I haven't actually done it before.
+
+If you don't already have it, you can get a free 
 student license from JetBrains. When the application is running, there is no frontend. To communicate with the RESTful
 web service, you will need an application called Insomnia REST client. This allows you to send HTTP requests to the RESTful backend.
 Once this is installed, you can import the configuration I have included under src/main/resources/insomniaConfiguration.
