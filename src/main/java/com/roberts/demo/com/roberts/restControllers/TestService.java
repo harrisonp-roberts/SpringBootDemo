@@ -24,7 +24,7 @@ import java.util.List;
 public class TestService {
 
 	/**
-	 * This is te recommended way to do autowired shitK
+	 * This is the recommended way to do autowired shitK
 	 */
 //	private BlogRepository blogRepoConstructor;
 //
