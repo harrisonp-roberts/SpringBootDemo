@@ -21,6 +21,9 @@ Harrison Roberts – harrison.roberts@edu.sait.ca
 
 ### Technologies
 IntelliJ IDEA Professional
+
 Insomnia REST Client
+
 Spring Boot
+
 MySQL Database
