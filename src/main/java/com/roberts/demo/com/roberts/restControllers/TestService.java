@@ -49,6 +49,8 @@ public class TestService {
 	 * RequestMapping annotation. They both accomplish effectively the same thing
 	 *
 	 * @return list of blog posts as gotten from the database. These posts are Blog objects represented as JSON
+	 *
+	 * @RequestMapping(value = "/blog", method = RequestMethod.GET) works exactly the same as the @GetMapping annotation
 	 */
 	@GetMapping("/blog")
 	public List<Blog> index() {
