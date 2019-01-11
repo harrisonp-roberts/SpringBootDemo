@@ -18,6 +18,9 @@ web service, you will need an application called Insomnia REST client. This allo
 Once this is installed, you can import the configuration I have included under src/main/resources/insomniaConfiguration.
 I have included some preconfigured POST, GET, PUT requests etc. that support getting and writing objects to the database.
 
+If the database connection doesn't work, look inside the application.properties file and ensure that the database connection
+string and login credentials are correct.
+
 ## Usage example
 
 This application is used as a simple demonstration of how a Spring Boot RESTful Web Service is configured and used.
