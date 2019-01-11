@@ -24,6 +24,16 @@ import java.util.List;
 public class TestService {
 
 	/**
+	 * This is te recommended way to do autowired shitK
+	 */
+//	private BlogRepository blogRepoConstructor;
+//
+//	@Autowired
+//	TestService(BlogRepository br) {
+//		this.blogRepoConstructor = br;
+//	}
+
+	/**
 	 * Creates an autowired blog repository (blog is just bullshit database stuff. doesn't matter what as long
 	 * as you know this is a class that connects to the database.)
 	 *
